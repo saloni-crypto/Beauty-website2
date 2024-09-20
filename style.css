@@ -74,17 +74,15 @@ main {
     font-size: 1.2em;
     color: #555;
 }
-
-/* Featured Tips Section */
-.featured {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    margin-bottom: 20px;
-    flex-direction: column;
+.featured-tips {
+            max-width: 1200px;
+            margin: 0 auto; /* Centers the section horizontally */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
             align-items: center; /* Centers items vertically */
             text-align: center;
+
 }
 
 .featured .card {
@@ -93,7 +91,14 @@ main {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    width: 100%;
+    width: 100%;.featured-tips {
+            max-width: 1200px;
+            margin: 0 auto; /* Centers the section horizontally */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers items vertically */
+            text-align: center;
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
